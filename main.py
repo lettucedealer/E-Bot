@@ -588,4 +588,4 @@ async def google(ctx, *, thing=None):
   
   
 
-bot.run("NzQ0MDA5NjU3OTY5ODAzMjk1.Xzc-_Q.u5SByq7iaf51EGb2LwwpUcmt-JM")
+bot.run("BOT_SECRET")
