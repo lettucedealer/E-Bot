@@ -173,7 +173,7 @@ async def on_member_join(member):
         description = "``-Why do you want to join ecorp?``",
         color = discord.Colour.blue()
     )
-  await member.send(embed=embed)
+    await member.send(embed=embed)
 @bot.command()
 async def matchmake(ctx, member1:discord.Member, member2:discord.Member):
     heartlist = []
